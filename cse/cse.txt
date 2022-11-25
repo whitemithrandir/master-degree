@@ -1,0 +1,39 @@
+Data Warehouse: Basic Concepts
+
+#Data Warehouse;
+Pek çok farklı şekilde tanımlanmış, ancak kesin olarak değil.
+Kuruluşun operasyonel veri tabanından ayrı tutulan bir karar destek veri tabanı
+Analiz için birleştirilmiş, geçmiş verilerden oluşan sağlam bir platform sağlayarak bilgi işlemeyi destekleyin.
+“Veri ambarı, yönetimin karar verme sürecini desteklemek için konuya yönelik, entegre, zamana bağlı ve geçici olmayan bir veri koleksiyonudur.
+
+#Data warehousing:
+Veri ambarlarını oluşturma ve kullanma süreci
+Müşteri, ürün, satış gibi ana başlıklar etrafında organize edilmiş
+Günlük operasyonlara veya işlem işlemeye değil, karar vericiler için verilerin modellenmesine ve analizine odaklanmak
+Karar destek sürecinde yararlı olmayan verileri hariç tutarak belirli konu sorunları hakkında basit ve özlü bir görüş sağlayın
+
+#Data Warehouse—Integrated;
+Çoklu, heterojen veri kaynaklarının entegre edilmesiyle oluşturulmuştur
+ilişkisel veritabanları, düz dosyalar, çevrimiçi işlem kayıtları
+
+Veri temizleme ve veri entegrasyon teknikleri uygulanır.
+Farklı veri kaynakları arasında adlandırma kurallarında, kodlama yapılarında, öznitelik ölçülerinde vb. tutarlılık sağlayın
+Örneğin, Otel fiyatı: para birimi, vergi, kahvaltı dahil vb.
+Veriler ambara taşındığında dönüştürülür.
+
+#Data Warehouse—Time Variant
+Veri ambarı için zaman ufku, operasyonel sistemlerinkinden önemli ölçüde daha uzundur
+Operasyonel veritabanı: geçerli değer verileri
+Veri ambarı verileri: tarihsel bir perspektiften bilgi sağlar (ör. son 5-10 yıl)
+
+Veri ambarındaki her anahtar yapı
+Açıkça veya dolaylı olarak bir zaman öğesi içerir
+Ancak operasyonel verilerin anahtarı “zaman unsuru” içerebilir veya içermeyebilir.
+
+#Data Warehouse—Nonvolatile
+Operasyonel ortamdan dönüştürülen fiziksel olarak ayrı bir veri deposu
+
+Veri ambarı ortamında operasyonel veri güncellemesi gerçekleşmez
+İşlem işleme, kurtarma ve eşzamanlılık kontrol mekanizmaları gerektirmez
+Veri erişiminde yalnızca iki işlem gerektirir:
+verilerin ilk yüklenmesi ve verilere erişim
