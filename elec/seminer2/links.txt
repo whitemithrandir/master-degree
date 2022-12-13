@@ -1,0 +1,9 @@
+https://github.com/genforce/trgan
+
+https://github.com/fxia22/stn.pytorch
+
+https://github.com/kamenbliznashki/spatial_transformer
+
+https://github.com/WarBean/tps_stn_pytorch
+
+https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=transformer%20network
